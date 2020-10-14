@@ -201,7 +201,7 @@ margin-bottom: 10px;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color:rgb(161, 20, 20);
+  background-color:#d32f2f;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.15s ease-in-out 0s;
@@ -216,24 +216,33 @@ margin-bottom: 10px;
   opacity: 0.9;
 }
 
-.portifolio-links i:hover{
-  transform: translateY(-1.5px);
-} 
-
-.linkedin:hover i{
-  color: #0e76a8;
+.link_button{
+transform: translateY(-1.5px);
+opacity: 0.6;
 }
 
-.git:hover i{
-  color: purple;
+.linkedin:hover{
+  color: #000000;
+  transition: 0.3s;
+  opacity: 1;
 }
 
-.email:hover i{
-  color: #D44638;
+.git:hover{
+  color: black;
+  transition: 0.3s;
+  opacity: 1.5;
 }
 
-.resume:hover i{
-  color: brown;
+.email:hover{
+  color: #000000;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.resume:hover{
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+  opacity: 1;
 }
 
 .icon-link:hover i{
