@@ -201,7 +201,7 @@ margin-bottom: 10px;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color:#d32f2f;
+  background-color:red;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.15s ease-in-out 0s;
