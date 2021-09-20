@@ -1,12 +1,13 @@
-window.onload = function() {
-    buildPlot();
-};
-
 const graphSize = 40;
 var arr = [];
 var max = 0;
 var sortStatus = false;
 var sorting = false;
+
+window.onload = function() {
+    buildPlot();
+    buildGraph();
+};
 
 //Generates an array of 25 random values from 1 to 200
 function buildGraph() {
