@@ -1,0 +1,77 @@
+
+  body {  min-height:600px; }
+
+  @media only screen and (max-width: 640px) {
+    div.infoBoard{
+      width: 95%;
+    }
+
+    div.myProgress{
+      height: 285px;
+    }
+
+    div.maxText > div:last-child{
+      margin-top: 250px;
+    }
+  }
+
+
+.graph {
+-webkit-transform: rotate(180deg);
+transform: rotate(180deg);
+height: 80%;
+width: 100%;
+display: flex;
+flex-direction:row;
+-moz-transform: scale(1, -1);
+-webkit-transform: scale(1, -1);
+-o-transform: scale(1, -1);
+-ms-transform: scale(1, -1);
+transform: scale(1, -1);
+
+border-style: solid;
+border-width: 3px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-color: white;
+
+padding: 2em;
+padding-bottom: 6em ;
+padding-left: 10%;
+padding-right: 10%;
+            
+}
+
+.myProgress {
+  height: 350px;
+  width: 5%;
+  padding-left: 5px;
+  /* background-color: grey; */
+}
+
+/* Responsive portion*/
+@media only screen and (max-width: 600px) {
+  .myProgress {
+    padding-left: 5px;
+  }
+}
+
+.myBar {
+  color: white;
+  background: rgb(0, 0, 0);
+  border: none;
+  border-radius: 0px 0px 20px 20px;
+  outline: none;
+  width: 100%;
+}
+
+#demo {
+    display: inline-block;
+    padding: 1em;
+}
+
+#title {
+    padding-top: 1em;
+    margin-bottom: -2em;
+    font-size: 30px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Hey, I'm Sultan and I like to code">
+  <title>Sultan Emaish</title>
+  <link rel="icon" href="./static/media/laptop-solid.svg"  >
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/graph.css" />
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous"
+  />
+</head>
+
+<body>
+  <p id="title">Sorting Visualizer</p>  
+
+  <div class="graph" id="graph">
+
+  </div>
+
+  <div id="sort">
+    <p id="demo" onclick=" buildGraph()">Generate Array</p>
+    <p id="demo" onclick=" bubbleSort()">Bubble Sort</p>
+    <p id="demo" onclick=" insertionSort()">Insertion Sort</p>
+    <p id="demo" onclick=" selectionSort()">Selection Sort</p>  
+    <p id="demo" onclick=" quickSort()">Quick Sort</p>  
+    <p id="demo" onclick=" mergeSort()">Merge Sort</p>
+    <p style="color: red;" id="demo" onclick=" radixSort()">Radix Sort</p>
+  </div>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+  <script src="js/graph.js"></script>
+</body>
+</html>
